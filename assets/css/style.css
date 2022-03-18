@@ -290,6 +290,16 @@ footer {
         padding: 0;
     }
     
+    /* -----Foe times section---- */
+    #times > div {
+        width: 100%;
+        clear: both;
+        height: 150px;
+        padding: 0;
+
+    }
+    /* --------------------------------- */
+
     hr {
         display: none;
     }
@@ -327,5 +337,19 @@ footer {
     .left-about-heading p, .right-about-heading p {
         text-align: center;
         padding: 0 20px;
+    }
+
+    /* Gallery photos */
+
+    #photos {
+        column-count: 3;
+    }
+}
+
+/* Gallery photos for smaller screen size 700px and below */
+
+@media screen and (max-width:700px) {
+    #photos {
+        column-count: 2;
     }
 }
